@@ -1,6 +1,8 @@
+<!-- Les objets BASE-->
 
 <br />
 <br />
+
 <?php
 
 echo "POO START"
