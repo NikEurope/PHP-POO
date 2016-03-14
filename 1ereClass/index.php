@@ -1,6 +1,5 @@
 
 <?php
-
 // Afficher les erreurs à l'écran
 ini_set('display_errors', 1);
 // Enregistrer les erreurs dans un fichier de log
@@ -10,7 +9,6 @@ ini_set('error_log', dirname(__file__) . '/log_error_php.txt');
 ?>
 
 <!-- Première class: -->
-
 <?php
 
 require 'Personnage.php';
@@ -32,7 +30,6 @@ else{
 
 var_dump ($merlin);
 var_dump ($harry);
-
 ?>
 
 <br />

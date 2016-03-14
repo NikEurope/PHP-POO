@@ -1,4 +1,3 @@
-<!-- Les objets BASE-->
 
 <br />
 <br />
@@ -13,6 +12,7 @@ echo "POO START"
 <!-- Les objets -->
 
 <!-- Les objets Ajouter 3 mois a une date-->
+
 <?php
 date_default_timezone_set('Europe/Paris');
 $date= "2014-02-01";
@@ -23,6 +23,7 @@ echo date('d/m/Y', strtotime($new_date)); // 03/05/2014
 <br />
 
 <!-- Les objets Ajouter 3 mois a une date AVEC DES FONCTIONS-->
+
 <?php
 $date = "2014-02-01";
 $date = add_days($date , 2);
@@ -53,6 +54,7 @@ $arr2->array(1,2,3);
 ?>
 <br />
 
+
 <!-- DES OBGETS Propriétés ->
 <?php
 $date->days;
@@ -62,6 +64,7 @@ $date->years;
 <br />
 
 <!-- DES OBGETS Méthodes: -->
+
 <?php
 $date->days();
 $date->months();

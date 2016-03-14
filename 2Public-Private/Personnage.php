@@ -5,8 +5,8 @@
 class Personnage{
 
 // proprietes private
-private $vie = 30;
-private $atk = 20;
+private $vie = 80;
+private $atk = 30;
 private $nom;
 
 // Methodes

@@ -1,15 +1,16 @@
 
 <?php
 // classe
-
 class Personnage{
 
 // proprietes
+
 public $vie = 30;
 public $atk = 20;
 public $nom;
 
 // Methodes
+
 public function __construct($nom){
   $this->nom = $nom;
 }
@@ -37,5 +38,4 @@ $cible->vie -= $this->atk;
 }
 
 }
-
 ?>
