@@ -43,4 +43,25 @@ echo $form->input('use');
 echo $form->input('use');
 echo $form->submit();
 
+echo "<br />";
+echo "<br />";
+
+
 ?>
+
+<!-- HTLM + PHP integration de contact forme + remplire autom-->
+
+<?php
+// require 'form.php';
+$form = new Form($_POST);
+?>
+
+<form action="#" method="post">
+
+<?php
+echo $form->input('username');
+echo $form->input('password');
+echo $form->submit();
+?>
+
+</form>
