@@ -25,7 +25,6 @@ public function getAtk(){
   return $this->atk;
 }
 
-
 public function regenerer($vie = null){
   if(is_null($vie)){
   }
@@ -45,6 +44,8 @@ private function empecher_negatif(){
  }
 
 }
+
+// Test function attaque
 
 public function attaque($cible){
 $cible->vie -= $this->atk;
