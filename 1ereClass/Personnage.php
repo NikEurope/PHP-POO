@@ -1,5 +1,6 @@
 
 <?php
+
 // classe
 class Personnage{
 
@@ -34,7 +35,6 @@ public function attaque($cible){
 // defensuer.vie -= attaquant.atk;
 $cible->vie -= $this->atk;
 // $cible->vie = 20;
-
 }
 
 }
