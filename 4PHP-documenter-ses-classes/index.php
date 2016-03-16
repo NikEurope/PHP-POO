@@ -9,10 +9,10 @@ ini_set('error_log', dirname(__file__) . '/log_error_php.txt');
 ?>
 
 <!-- Form : -->
+
 <?php
 
 require 'form.php';
-
 $form = new Form(array(
   'username' => 'Roger'
 ));
@@ -44,11 +44,9 @@ $form = new Form($_POST);
 ?>
 
 <form action="#" method="post">
-
 <?php
 echo $form->input('username');
 echo $form->input('password');
 echo $form->submit();
 ?>
-
 </form>
