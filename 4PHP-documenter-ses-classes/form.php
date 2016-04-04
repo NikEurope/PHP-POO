@@ -5,6 +5,7 @@
 * Permet de generer un formulaire rapidement
 */
 
+
 // classe
 class Form{
 
@@ -19,6 +20,7 @@ class Form{
   public function __construct($data = array()){
      $this->data = $data;
   }
+
 
   // @var Param : HTML : Code html  entourer
   // @ return string
