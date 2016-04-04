@@ -10,6 +10,8 @@ ini_set('log_errors', 1);
 ini_set('error_log', dirname(__file__) . '/log_error_php.txt');
 ?>
 
+
+
 <!-- Form : -->
 
 <?php
@@ -38,14 +40,12 @@ echo "<br />";
 
 ?>
 
-
 <!-- HTLM + PHP integration de contact forme + remplire autom-->
 
 <?php
 // require 'form.php';
 $form = new Form($_POST);
 ?>
-
 
 <form action="#" method="post">
 <?php
@@ -54,5 +54,4 @@ echo $form->input('password');
 echo $form->submit();
 ?>
 </form>
-
 
