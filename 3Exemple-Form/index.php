@@ -9,6 +9,7 @@ ini_set('log_errors', 1);
 ini_set('error_log', dirname(__file__) . '/log_error_php.txt');
 ?>
 
+
 <!-- Un exemple concret : Form : -->
 
 <?php
@@ -22,7 +23,6 @@ $form = new Form(array(
 echo $form->input('username');
 echo $form->input('password');
 echo $form->submit();
-
 
 echo "<br />";
 echo "<br />";
