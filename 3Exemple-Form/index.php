@@ -9,7 +9,6 @@ ini_set('log_errors', 1);
 ini_set('error_log', dirname(__file__) . '/log_error_php.txt');
 ?>
 
-
 <!-- Un exemple concret : Form : -->
 
 <?php
@@ -39,7 +38,6 @@ echo "<br />";
 echo "<br />";
 ?>
 
-
 <!-- HTLM + PHP integration de contact forme + remplire autom-->
 
 <?php
@@ -55,6 +53,3 @@ echo $form->input('password');
 echo $form->submit();
 ?>
 </form>
-
-
-
