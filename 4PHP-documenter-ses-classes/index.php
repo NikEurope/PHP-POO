@@ -11,6 +11,7 @@ ini_set('error_log', dirname(__file__) . '/log_error_php.txt');
 
 <!-- Form : -->
 
+
 <?php
 
 require 'form.php';
@@ -31,6 +32,7 @@ echo $form->input('use');
 echo $form->input('use');
 echo $form->input('use');
 echo $form->submit();
+
 
 echo "<br />";
 echo "<br />";
