@@ -20,13 +20,11 @@ class Form{
      $this->data = $data;
   }
 
-
   // @var Param : HTML : Code html  entourer
   // @ return string
  private function surround($html){
    return "<{$this->surround}>{$html}</{$this->surround}>";
  }
-
 
   // @var $index string Index de la valeure à recuperer
   // @ return string
@@ -49,3 +47,4 @@ public function submit(){
 }
 
 ?>
+
