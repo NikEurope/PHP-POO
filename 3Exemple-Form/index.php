@@ -52,3 +52,5 @@ echo $form->input('password');
 echo $form->submit();
 ?>
 </form>
+
+// require 'form.php';
