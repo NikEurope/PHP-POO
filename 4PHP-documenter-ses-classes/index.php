@@ -1,6 +1,7 @@
 
 
 <?php
+
 // Afficher les erreurs à l'écran
 ini_set('display_errors', 1);
 // Enregistrer les erreurs dans un fichier de log
@@ -53,3 +54,4 @@ echo $form->input('password');
 echo $form->submit();
 ?>
 </form>
+
