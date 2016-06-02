@@ -1,6 +1,7 @@
 
 // Public-Private
 
+
 <?php
 // classe
 class Personnage{
@@ -25,6 +26,7 @@ public function getVie(){
 public function getAtk(){
   return $this->atk;
 }
+
 
 public function regenerer($vie = null){
   if(is_null($vie)){
