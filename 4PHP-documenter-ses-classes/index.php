@@ -12,9 +12,7 @@ ini_set('error_log', dirname(__file__) . '/log_error_php.txt');
 ?>
 
 
-
 <!-- Form : -->
-
 
 <?php
 
