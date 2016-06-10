@@ -1,5 +1,6 @@
 
 <?php
+
 /**
 *Class Forme
 * Permet de generer un formulaire rapidement
@@ -47,4 +48,3 @@ public function submit(){
 }
 
 ?>
-
