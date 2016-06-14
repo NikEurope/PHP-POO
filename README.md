@@ -7,7 +7,7 @@ La Programmation Orientée Objet en PHP
 
 
 
-
+For example :
 
 POO Grafikart.fr 
 
