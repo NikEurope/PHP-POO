@@ -27,6 +27,7 @@ echo $form->submit();
 echo "<br />";
 echo "<br />";
 
+
 $form = new Form();
 echo $form->input('use');
 echo $form->input('use');
