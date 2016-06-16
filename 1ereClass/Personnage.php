@@ -4,7 +4,6 @@
 // classe
 class Personnage{
 
-
 // proprietes
 
 public $vie = 30;
@@ -31,12 +30,15 @@ public function mort(){
   return $this->vie <= 0;
 }
 
+
 public function attaque($cible){
+  
 // $this - attaquant
 // $cible - Defanceur
 // defensuer.vie -= attaquant.atk;
 $cible->vie -= $this->atk;
 // $cible->vie = 20;
+
 }
 
 }
