@@ -9,7 +9,8 @@ La Programmation Orientée Objet en PHP
 
 For example :
 
-POO Grafikart.fr 
+
+POO Grafikart
 
 EX: https://www.youtube.com/watch?v=r_NiFqLvfsc&list=PLjwdMgw5TTLVDKy8ikf5Df5fnMqY-ec16&index=1
 
