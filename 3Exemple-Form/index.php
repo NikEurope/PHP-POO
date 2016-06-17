@@ -1,4 +1,5 @@
 
+<!-- HTLM + PHP integration de contact forme + remplire autom-->
 
 <?php
 // Afficher les erreurs à l'écran
