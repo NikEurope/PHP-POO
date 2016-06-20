@@ -14,6 +14,7 @@ public function __construct($nom){
   $this->nom = $nom;
 }
 
+
 public function regenerer($vie = null){
   if(is_null($vie)){
   }
@@ -22,6 +23,7 @@ public function regenerer($vie = null){
     $this->vie += $vie;
   }
 }
+
 
 public function mort(){
   return $this->vie <= 0;
