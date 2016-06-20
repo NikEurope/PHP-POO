@@ -27,7 +27,6 @@ public function getAtk(){
   return $this->atk;
 }
 
-
 public function regenerer($vie = null){
   if(is_null($vie)){
   }
