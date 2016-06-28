@@ -6,6 +6,7 @@
 * Permet de generer un formulaire rapidement
 */
 
+
 // classe
 class Form{
 
