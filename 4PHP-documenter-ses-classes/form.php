@@ -41,6 +41,7 @@ public function input($name){
       '<input type="text" name="'.$name.'" value ="'.$this->getValue($name).'">');
   }
 
+
 // @ return string
 public function submit(){
     return $this->surround('<button type="submit">Envoyer</button>');
