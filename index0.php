@@ -61,7 +61,8 @@ $date->days;
 $date->months;
 $date->years;
 ?>
-<br />
+
+
 
 <!-- DES OBGETS Méthodes: -->
 
@@ -71,4 +72,9 @@ $date->months();
 $date->addDays(2);
 $date->format('d/m/Y');
 ?>
+
+
+
+
+
 <br />
