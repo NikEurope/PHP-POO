@@ -3,6 +3,7 @@
 
 <!-- HTLM + PHP integration de contact forme + remplire autom-->
 
+
 <?php
 // Afficher les erreurs à l'écran
 ini_set('display_errors', 1);
@@ -57,4 +58,6 @@ echo $form->submit();
 ?>
 </form>
 
+
 // require 'form.php';
+
