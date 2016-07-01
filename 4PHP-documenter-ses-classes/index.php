@@ -1,5 +1,6 @@
 
 
+
 <!-- TEST ERREURS --->
 
 <?php
@@ -13,7 +14,6 @@ ini_set('error_log', dirname(__file__) . '/log_error_php.txt');
 
 
 <!-- Form : -->
-
 
 <?php
 
@@ -43,7 +43,6 @@ echo "<br />";
 echo "<br />";
 
 ?>
-
 
 
 <!-- HTLM + PHP integration de contact forme + remplire autom-->
