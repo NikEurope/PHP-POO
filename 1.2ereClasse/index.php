@@ -1,4 +1,5 @@
 
+
 <?php
 // Afficher les erreurs à l'écran
 ini_set('display_errors', 1);
@@ -33,6 +34,7 @@ else{
 var_dump ($merlin);
 var_dump ($harry);
 ?>
+
 
 <br />
 <br />
