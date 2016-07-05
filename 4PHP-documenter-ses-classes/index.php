@@ -1,6 +1,5 @@
 
 
-
 <!-- TEST ERREURS --->
 
 <?php
@@ -43,6 +42,7 @@ echo "<br />";
 echo "<br />";
 
 ?>
+
 
 
 <!-- HTLM + PHP integration de contact forme + remplire autom-->
