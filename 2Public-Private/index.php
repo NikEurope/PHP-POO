@@ -1,4 +1,5 @@
 
+
 <?php
 // Afficher les erreurs à l'écran
 ini_set('display_errors', 1);
@@ -26,4 +27,5 @@ var_dump($merlin->getVie());
 var_dump($merlin->getAtk());
 
 ?>
+
 
