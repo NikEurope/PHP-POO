@@ -1,7 +1,6 @@
 
 // Public-Private
 
-
 <?php
 // classe
 class Personnage{
@@ -57,3 +56,4 @@ $cible->empecher_negatif();
 }
 
 ?>
+
