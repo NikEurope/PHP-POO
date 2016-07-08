@@ -1,4 +1,5 @@
 
+
 <?php
 // Afficher les erreurs à l'écran
 ini_set('display_errors', 1);
@@ -16,6 +17,7 @@ require 'Personnage.php';
 
 $merlin = new Personnage();
 // $merlin personnage;
+
 
 // var_dump($merlin->vie);
 // // Affiche la la variable
