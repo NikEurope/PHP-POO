@@ -2,6 +2,7 @@
 
 <!-- HTLM + PHP integration de contact forme + remplire autom-->
 
+
 <?php
 // Afficher les erreurs à l'écran
 ini_set('display_errors', 1);
@@ -15,7 +16,6 @@ ini_set('error_log', dirname(__file__) . '/log_error_php.txt');
 <!-- Un exemple concret : Form : -->
 
 <?php
-
 require 'form.php';
 
 $form = new Form(array(
@@ -39,7 +39,6 @@ echo $form->submit();
 echo "<br />";
 echo "<br />";
 ?>
-
 
 <!-- HTLM + PHP integration de contact forme + remplire autom-->
 
