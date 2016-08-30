@@ -8,6 +8,7 @@ ini_set("display_errors", 1);
 
 
 <?php
+
 // classe
 class Form{
 
@@ -38,6 +39,7 @@ public function input($name){
   }
 
 }
+
 
 ?>
 
