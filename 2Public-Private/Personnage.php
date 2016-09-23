@@ -1,9 +1,11 @@
 
 // Public-Private
 
+
 <?php
 // classe
 class Personnage{
+
 
 // proprietes private
 private $vie = 80;
