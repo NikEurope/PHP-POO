@@ -17,6 +17,7 @@ public function __construct($nom){
   $this->nom = $nom;
 }
 
+
 // function  public  Get
 public function getNom(){
   return $this->nom;
@@ -47,6 +48,7 @@ private function empecher_negatif(){
  }
 
 }
+
 
 // Test function attaque
 
